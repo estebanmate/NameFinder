@@ -1,12 +1,9 @@
-package com.miretz.nlp.namefinder.dto;
+package com.emtp.namefinder.dto;
 
 import io.swagger.annotations.ApiModel;
 
 import java.util.List;
 
-/**
- * Created by Miroslav on 15.10.2016.
- */
 @ApiModel(value="Extraction", description="Extraction request and response object")
 public class Extraction {
 

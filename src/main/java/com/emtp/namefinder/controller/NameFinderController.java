@@ -1,24 +1,17 @@
-package com.miretz.nlp.namefinder.controller;
+package com.emtp.namefinder.controller;
 
-import com.miretz.nlp.namefinder.dto.Replacement;
-import com.miretz.nlp.namefinder.service.NameFinder;
-import com.miretz.nlp.namefinder.dto.Extraction;
-import com.miretz.nlp.namefinder.service.NameFinderImpl;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
+import com.emtp.namefinder.dto.Extraction;
+import com.emtp.namefinder.dto.Replacement;
+import com.emtp.namefinder.service.NameFinder;
 import java.util.List;
 
-/**
- * Created by Miretz on 9.10.2016.
- */
 
 @RestController
 public class NameFinderController {
