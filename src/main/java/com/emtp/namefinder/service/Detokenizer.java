@@ -1,13 +1,10 @@
-package com.miretz.nlp.namefinder.service;
+package com.emtp.namefinder.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * Created by Miretz on 6.10.2016.
- */
 public class Detokenizer {
 
     public static String detokenize(final List<String> sourceTokens) {

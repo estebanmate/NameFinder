@@ -1,9 +1,10 @@
 # NameFinder
-NameFinder using OpenNLP
+NameFinder using Apache OpenNLP
 
 Download the model and place it under the input directory.
 ```
 http://opennlp.sourceforge.net/models-1.5/en-ner-person.bin
+http://opennlp.sourceforge.net/models-1.5/es-ner-person.bin
 ```
 
 Running with maven:

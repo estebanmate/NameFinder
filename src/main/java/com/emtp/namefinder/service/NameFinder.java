@@ -1,10 +1,7 @@
-package com.miretz.nlp.namefinder.service;
+package com.emtp.namefinder.service;
 
 import java.util.List;
 
-/**
- * Created by Miroslav on 15.10.2016.
- */
 public interface NameFinder {
 
     List<String> getNames(String sentence);

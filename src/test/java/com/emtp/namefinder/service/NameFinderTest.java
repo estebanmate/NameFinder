@@ -1,4 +1,4 @@
-package com.miretz.nlp.namefinder.service;
+package com.emtp.namefinder.service;
 
 import org.junit.Test;
 
@@ -8,12 +8,12 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.emtp.namefinder.service.NameFinder;
+import com.emtp.namefinder.service.NameFinderImpl;
+
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
 
-/**
- * Created by Miretz on 6.10.2016.
- */
 public class NameFinderTest {
 
     public static final Logger log = LoggerFactory.getLogger(NameFinderTest.class);

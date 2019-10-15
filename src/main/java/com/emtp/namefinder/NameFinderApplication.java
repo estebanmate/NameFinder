@@ -1,8 +1,4 @@
-package com.miretz.nlp.namefinder;
-
-/**
- * Created by Miretz on 9.10.2016.
- */
+package com.emtp.namefinder;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,10 +13,10 @@ import static springfox.documentation.builders.PathSelectors.regex;
 
 @EnableSwagger2
 @SpringBootApplication
-public class Application {
+public class NameFinderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(NameFinderApplication.class, args);
     }
 
     @Bean
@@ -37,7 +33,7 @@ public class Application {
         return new ApiInfoBuilder()
                 .title("Name Finder")
                 .description("Name Extraction Service API")
-                .contact("Miroslav Semerad")
+                .contact("Esteban Martín-Tembleque Poves")
                 .version("1.0")
                 .build();
     }

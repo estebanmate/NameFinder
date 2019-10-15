@@ -1,4 +1,4 @@
-package com.miretz.nlp.namefinder.service;
+package com.emtp.namefinder.service;
 
 import opennlp.tools.namefind.NameFinderME;
 import opennlp.tools.namefind.TokenNameFinderModel;
@@ -14,10 +14,6 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * Created by Miretz on 6.10.2016.
- */
-
 @Component
 public class NameFinderImpl implements NameFinder {
 
@@ -30,7 +26,7 @@ public class NameFinderImpl implements NameFinder {
     public NameFinderImpl() {
 
         // Load the model file downloaded from OpenNLP
-        // http://opennlp.sourceforge.net/models-1.5/en-ner-person.bin
+        // http://opennlp.sourceforge.net/models-1.5/es-ner-person.bin
         try {
             model = new TokenNameFinderModel(new File("input/es-ner-person.bin"));
             finder = new NameFinderME(model);
